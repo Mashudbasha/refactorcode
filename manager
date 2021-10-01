@@ -1,0 +1,26 @@
+package com;
+
+public class Manager extend Employee {
+	int hra, ta;
+    Manager()
+    {
+         super();
+         hra = ta = 0;
+    }
+    Manager(String n, int sal, int h, int t)
+    {
+         super();
+         hra = h;
+         ta = t;
+    }
+    int getSalary()
+    {
+         int hra;
+		int ta;
+		return (super.getSalary()+hra+ta);
+    }
+}
+
+{
+
+}
